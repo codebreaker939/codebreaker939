@@ -1,4 +1,4 @@
-j<h1 align="center">HI 👋, I'm Aniket RAI</h1>
+<h1 align="center">HI 👋, I'm Aniket RAI</h1>
 <h3 align="center">"Passionate Develoer | MERN Stack | AI/ML & Cloud Enthusiast | Problem Solver 🚀"</h3>
 
 - 🌱 I’m currently learning **MERN Stack, Spring AI, and Agentic AI**
