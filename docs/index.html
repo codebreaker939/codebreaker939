@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080f1c">
+  <meta name="description" content="Aniket Rai · AI/ML engineering, full-stack development, and an interactive developer playground.">
+  <title>Aniket Rai — AI Engineer / Interactive Lab</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="Back to top"><span class="brand-square">A<span>/</span>R</span><span class="wordmark-text">ANIKET<span> / </span>RAI <small>LAB.01</small></span></a>
+    <nav class="toplinks" aria-label="Top navigation"><a href="#work">Projects</a><a href="#lab">Playground</a><a href="#stack">Stack</a><a href="#connect">Contact</a></nav>
+    <a class="external-top" href="https://github.com/codebreaker939" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4H4v16h16v-5M13 4h7v7M20 4 10 14"/></svg><span>GITHUB</span></a>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="identity-panel">
+        <div class="avatar-visual" aria-hidden="true"><div class="avatar-orbit"></div><span>AR<span class="avatar-dot">.</span></span></div>
+        <p class="eyebrow mt">PROFILE / 001</p>
+        <h2>Aniket Rai</h2>
+        <p class="subtle handle">@codebreaker939</p>
+        <p class="role-description">AI/ML Engineer<br>Full-Stack Developer<br>Product Builder</p>
+        <span class="availability"><span class="live-dot"></span> Open to collaboration</span>
+      </div>
+      <div class="sidebar-group"><p class="eyebrow">NAVIGATION</p><a class="side-link" href="#home"><span>01</span> Overview</a><a class="side-link" href="#work"><span>02</span> Featured work</a><a class="side-link" href="#lab"><span>03</span> Interactive lab</a><a class="side-link" href="#stack"><span>04</span> Technical stack</a></div>
+      <div class="sidebar-group"><p class="eyebrow">FOCUS AREAS</p><div class="focus-chip">AI &amp; LLMs <span>◆</span></div><div class="focus-chip">Full-stack engineering <span>◆</span></div><div class="focus-chip">Automation <span>◆</span></div><div class="focus-chip">Product thinking <span>◆</span></div></div>
+      <div class="sidebar-foot"><span class="status-blip"></span><span>BUILDING / LEARNING / SHIPPING</span></div>
+    </aside>
+    <main>
+      <section id="home" class="hero-wrap">
+        <p class="path"><span class="teal">~/</span> codebreaker939 <span>/</span> profile <span class="path-right">SYS.README</span></p>
+        <picture><source media="(max-width: 760px)" srcset="assets/hero-mobile.svg"><img class="hero-graphic" src="assets/hero.svg" alt="Aniket Rai — AI/ML engineer, full-stack developer and product builder; luminous neural-network visual" width="1440" height="470"></picture>
+        <div class="hero-actions"><a class="action action-primary" href="#lab"><span>▶</span> Launch playground</a><a class="action action-secondary" href="#work">Explore work <span>↗</span></a><a class="action action-secondary" href="https://github.com/codebreaker939" target="_blank" rel="noreferrer">GitHub repositories <span>↗</span></a><span class="hero-meta">[ v1.0 / OPEN DEMO ]</span></div>
+      </section>
+
+      <section id="work" class="section-block">
+        <div class="section-heading"><div><span class="eyebrow teal">// 01 / SELECTED WORK</span><h2>Projects <span class="heading-muted">worth opening.</span></h2></div><div class="filter-bar" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all" aria-pressed="true">All <span>04</span></button><button class="filter" data-filter="ai" aria-pressed="false">AI / ML</button><button class="filter" data-filter="automation" aria-pressed="false">Automation</button><button class="filter" data-filter="product" aria-pressed="false">Product</button></div></div>
+        <div class="project-grid" id="projectGrid">
+          <article class="project" data-tags="product frontend"><img src="assets/project-portfolio.svg" loading="lazy" width="640" height="290" alt="Portfolio project artwork"><div class="project-main"><div class="project-top"><p class="project-tag">LIVE WEBSITE · PORTFOLIO</p><span class="project-arrow">↗</span></div><h3>Portfolio OS</h3><p>A personal space for engineering work, experiments, and shipped projects.</p><div class="taglist"><span>Web</span><span>UI / UX</span><span>Portfolio</span></div><a class="project-hit" href="https://aniket-s-os.vercel.app/" target="_blank" rel="noreferrer" aria-label="Open Aniket's portfolio"></a></div></article>
+          <article class="project" data-tags="automation"><img src="assets/project-telegram.svg" loading="lazy" width="640" height="290" alt="Telegram Bot project artwork"><div class="project-main"><div class="project-top"><p class="project-tag">AUTOMATION · VERIFIED PUBLIC REPO</p><span class="project-arrow">↗</span></div><h3>Telegram News Bot</h3><p>Python MCP server with LangGraph news ingestion, SQLite archive, and a Telegram agent for news and digests.</p><div class="taglist"><span>Automation</span><span>Bot</span><span>Messaging</span></div><a class="project-hit" href="https://github.com/codebreaker939/TELEGRAM_NEWS_BOT" target="_blank" rel="noreferrer" aria-label="Open Telegram News Bot GitHub repository"></a></div></article>
+          <article class="project" data-tags="ai"><img src="assets/project-prompt.svg" loading="lazy" width="640" height="290" alt="Prompt Compressor project artwork"><div class="project-main"><div class="project-top"><p class="project-tag">AI TOOL · PUBLIC REPO</p><span class="project-arrow">↗</span></div><h3>Prompt Compressor</h3><p>A Chrome extension exploring LLM-powered prompt compression and API integration.</p><div class="taglist"><span>LLMs</span><span>Chrome extension</span><span>FastAPI</span></div><a class="project-hit" href="https://github.com/codebreaker939/Prompt-Compressor-" target="_blank" rel="noreferrer" aria-label="Open Prompt Compressor repository"></a></div></article>
+          <article class="project" data-tags="product"><img src="assets/project-byt.svg" loading="lazy" width="640" height="290" alt="BYT Solutions project artwork"><div class="project-main"><div class="project-top"><p class="project-tag">VENTURE · IN DEVELOPMENT</p><span class="project-arrow">↗</span></div><h3>BYT Solutions</h3><p>Building an IT solutions ecosystem across software services and original products.</p><div class="taglist"><span>Product</span><span>Software</span><span>Founder mindset</span></div><a class="project-hit" href="mailto:raianiket@outlook.com?subject=About%20BYT%20Solutions" aria-label="Email Aniket to learn about BYT Solutions"></a></div></article>
+        </div>
+        <p class="project-footnote">Selected work, not inflated metrics. Project links and statuses are marked as verified, in development, or awaiting a repo URL.</p>
+      </section>
+
+      <section id="lab" class="section-block lab-section">
+        <div class="section-heading"><div><span class="eyebrow teal">// 02 / EXPERIMENTAL ZONE</span><h2>Interactive <span class="heading-muted">playground.</span></h2></div><div class="lab-live"><span class="live-dot"></span> DEMO MODE <span class="lab-live-sep">/</span> NO LOGIN</div></div>
+        <div class="lab-shell">
+          <div class="lab-toolbar"><div class="toolbar-left"><span class="toolbar-mark">◆</span><strong>AR.DEVLAB</strong><span class="toolbar-sub">/ interactive modules</span></div><div class="toolbar-right"><span class="toolbar-stat">4 MODULES</span><span class="toolbar-stat">100% CLIENT-SIDE</span><span class="toolbar-stat teal">● AVAILABLE</span></div></div>
+          <div class="lab-content">
+            <div class="lab-tabs" role="tablist" aria-label="Playground modules"><button id="tab-chat" class="lab-tab active" type="button" role="tab" aria-controls="panel-chat" aria-selected="true" data-tab="chat"><span class="tab-number">01</span><span>AI Chat Demo</span></button><button id="tab-code" class="lab-tab" type="button" role="tab" aria-controls="panel-code" aria-selected="false" data-tab="code"><span class="tab-number">02</span><span>Code Runner</span></button><button id="tab-agent" class="lab-tab" type="button" role="tab" aria-controls="panel-agent" aria-selected="false" data-tab="agent"><span class="tab-number">03</span><span>Agent Circuit</span></button><button id="tab-terminal" class="lab-tab" type="button" role="tab" aria-controls="panel-terminal" aria-selected="false" data-tab="terminal"><span class="tab-number">04</span><span>Terminal</span></button><p class="tabs-caption">Choose a module.<br>Run an experiment.<br>Learn by doing.</p></div>
+            <div class="lab-panels">
+              <div class="lab-panel" id="panel-chat" role="tabpanel" aria-labelledby="tab-chat">
+                <div class="panel-head"><div><span class="eyebrow">MODULE_01 / DEMONSTRATION</span><h3>Ask the engineering console</h3><p>Prewritten architecture guidance powered by local matching — not a live AI model.</p></div><span class="pill-muted">SIMULATED RESPONSES</span></div>
+                <div id="chatLog" class="chat-log" role="log" aria-live="polite"><div class="chat-item assistant"><span class="chat-icon">AR</span><div><small>ENGINEERING CONSOLE</small><p>Welcome to the dev lab. Try a question about Telegram bots, AI agents, RAG, or full-stack apps.</p></div></div></div>
+                <div class="suggestions"><button class="suggestion" data-prompt="How do I design a Telegram bot?">Telegram bot architecture ↗</button><button class="suggestion" data-prompt="How does an AI agent work?">AI agent workflow ↗</button><button class="suggestion" data-prompt="How would you build a full-stack SaaS app?">Full-stack SaaS stack ↗</button></div>
+                <form id="chatForm" class="entrybar"><label class="sr-only" for="chatInput">Ask the simulated engineering console</label><input id="chatInput" maxlength="240" autocomplete="off" placeholder="Ask an engineering question..."><button type="submit" class="primary-button">SEND <span>↗</span></button></form>
+              </div>
+              <div class="lab-panel" id="panel-code" role="tabpanel" aria-labelledby="tab-code" hidden>
+                <div class="panel-head"><div><span class="eyebrow">MODULE_02 / ISOLATED RUNTIME</span><h3>JavaScript code runner</h3><p>Edit a small JavaScript snippet and execute it inside a sandboxed iframe.</p></div><span class="pill-muted">BROWSER SANDBOX</span></div>
+                <div class="runner-control"><label for="codeExample">Load a snippet</label><select id="codeExample"><option value="hello">Hello, world</option><option value="fibonacci">Fibonacci sequence</option><option value="array">Filter and map</option><option value="async">Async sample</option></select></div>
+                <div class="editor-shell"><div class="editor-title"><span class="file-icon">JS</span> experiment.js <span class="editor-lang">JAVASCRIPT</span></div><label class="sr-only" for="codeEditor">JavaScript code editor</label><textarea id="codeEditor" spellcheck="false" aria-label="JavaScript code editor"></textarea></div>
+                <div class="run-row"><button id="runCode" class="primary-button" type="button">▶ RUN CODE</button><button id="resetCode" class="secondary-button" type="button">RESET</button><span class="status-text" id="runStatus">Ready to execute.</span></div>
+                <div class="output"><div class="output-head">OUTPUT / CONSOLE</div><pre id="codeOutput" aria-live="polite">// Run code to see output here</pre></div>
+                <p class="micro">Runs locally in your browser with an isolated origin. No Node.js APIs, files, or backend access.</p>
+                <iframe id="runnerFrame" sandbox="allow-scripts" title="Isolated code execution frame" hidden></iframe>
+              </div>
+              <div class="lab-panel" id="panel-agent" role="tabpanel" aria-labelledby="tab-agent" hidden>
+                <div class="panel-head"><div><span class="eyebrow">MODULE_03 / LOGIC PUZZLE</span><h3>Build an agent circuit</h3><p>Arrange the four stages of a basic tool-using AI agent in the correct order.</p></div><span class="pill-muted">PLAYABLE CHALLENGE</span></div>
+                <div class="circuit-intro"><span class="circuit-icon">◎</span><div><strong>Mission: route one request through the system.</strong><p>Tap a module below to wire it into the next empty slot.</p></div></div>
+                <div id="circuitSlots" class="circuit-slots" aria-label="Your current circuit"><div class="slot">01 <span>EMPTY</span></div><div class="slot">02 <span>EMPTY</span></div><div class="slot">03 <span>EMPTY</span></div><div class="slot">04 <span>EMPTY</span></div></div>
+                <p class="mini-label">AVAILABLE MODULES / SELECT IN ORDER</p><div id="circuitChoices" class="circuit-choices"></div>
+                <div class="run-row"><button id="checkCircuit" class="primary-button" type="button">▶ TEST CIRCUIT</button><button id="resetCircuit" class="secondary-button" type="button">RESET</button><button id="circuitHint" class="text-button" type="button">NEED A HINT?</button></div><p id="circuitFeedback" class="feedback" role="status">Circuit idle. Connect the four nodes.</p>
+              </div>
+              <div class="lab-panel" id="panel-terminal" role="tabpanel" aria-labelledby="tab-terminal" hidden>
+                <div class="panel-head"><div><span class="eyebrow">MODULE_04 / PROFILE CLI</span><h3>Explore through the terminal</h3><p>A command-based guide to my projects, skills and engineering focus.</p></div><span class="pill-muted">INTERACTIVE CLI</span></div>
+                <div class="terminal"><div class="terminal-title"><div class="window-dots"><i></i><i></i><i></i></div><span>aniket@devlab — zsh</span></div><div id="terminalOutput" class="terminal-output" role="log" aria-live="polite"><div><span class="cli-cyan">ANIKET/RAI</span> developer console v1.0</div><div>Type <strong>help</strong> to see available commands.</div></div><form id="terminalForm" class="terminal-input"><label for="terminalInput">visitor@devlab:~$</label><input id="terminalInput" autocomplete="off" spellcheck="false" aria-label="Terminal command" placeholder="help"><button type="submit" class="sr-only">Execute command</button></form></div>
+                <div class="command-chips"><button data-command="help">help</button><button data-command="projects">projects</button><button data-command="stack">stack</button><button data-command="about">about</button><button data-command="contact">contact</button><button data-command="clear">clear</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="lab-foot"><div><span class="live-dot"></span> All modules run locally</div><div>No login · No API keys · No telemetry</div></div>
+        </div>
+      </section>
+      <section id="stack" class="section-block stack-section">
+        <div class="section-heading"><div><span class="eyebrow teal">// 03 / TOOLKIT</span><h2>Technical <span class="heading-muted">stack.</span></h2></div><span class="right-aside">CAPABILITIES &amp; AREAS OF LEARNING</span></div>
+        <div class="stack-grid"><div class="stack-card"><span class="stack-icon">◈</span><h3>AI / ML</h3><p>Python · ML fundamentals · LLM integrations · FastAPI</p></div><div class="stack-card"><span class="stack-icon">&lt;/&gt;</span><h3>Frontend</h3><p>React · JavaScript · HTML · CSS · MERN</p></div><div class="stack-card"><span class="stack-icon">⌘</span><h3>Backend</h3><p>Node.js · Express · REST APIs · Python</p></div><div class="stack-card"><span class="stack-icon">▤</span><h3>Databases / Tools</h3><p>MongoDB · SQL · Git · GitHub · Postman</p></div></div>
+        <div class="learning-band"><span class="eyebrow">CURRENTLY EXPLORING</span><span>Spring AI</span><span>Agentic AI</span><span>Cloud architecture</span><span>System design</span></div>
+      </section>
+      <footer id="connect" class="footer"><div><span class="eyebrow teal">// OPEN CHANNEL</span><h2>Have a good problem to solve?</h2><p>Open to collaborations in AI, software engineering, and product development.</p></div><div class="footer-actions"><a href="mailto:raianiket@outlook.com" class="action action-primary">✉ Email me ↗</a><a href="https://www.linkedin.com/in/aniketrai07/" target="_blank" rel="noreferrer" class="action action-secondary">LinkedIn ↗</a><a href="https://github.com/codebreaker939" target="_blank" rel="noreferrer" class="action action-secondary">GitHub ↗</a></div><div class="copyright">© <span id="year">2026</span> Aniket Rai <span>DESIGNED AS A PLAYGROUND, BUILT TO BE USED.</span></div></footer>
+    </main>
+  </div>
+</body>
+</html>
